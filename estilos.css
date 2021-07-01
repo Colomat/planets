@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2? family = Raleway: wght @ 400; 500; 600; 700 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Frank + Ruhl + Libre: wght @ 400; 500; 700 & family = Patua + One & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Frank + Ruhl + Libre: wght @ 400; 500; 700 & family = Patua + One & family = Vidaloka & display = swap' );
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   background: #000;
+   scroll-behavior: smooth;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
+
+#inicio{
+    background: url(img/planet-2120004_1920\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#inicio h2{
+    text-align: center;
+    align-items: center;
+    margin: 350px auto;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flecha{
+    font-size: 40px;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+    background-color: rgba(1,1,1,.3);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 95px;
+    box-shadow: 1px 1px 30px #fff;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.flecha:hover{
+    background-color: rgba(119, 137, 241, 0.3);
+    color: #000;
+}
+
+
+.navbar{
+    
+    height: 100px;
+    align-items: center;
+    
+}
+
+.navbar-brand img{
+    width: 130px;
+    
+}
+
+.navbar-toggler{
+    border: 2px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar-toggler i{
+    color: aliceblue;
+}
+
+.dropdown-menu{
+    background-color: rgba(1,1,1,.3);
+}
+
+.dropdown-item:hover{
+    background-color: rgb(4, 11, 104,.5);
+}
+
+.nav-item a{
+    font-size: 25px;
+    color: aliceblue !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    filter: blur(1px);
+    color: rgb(21, 61, 168);
+}
+
+
+
+
+#acerca{
+    background-image: url(img/hands-1222866_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+#acerca h2{
+    text-align: center;
+    padding-top: 450px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+#acerca p{
+    text-align: center;
+    font-family: 'Vidaloka', serif;
+    font-size: 27px;
+    color: #fff;
+    padding-top: 10px;
+    
+}
+
+@media (max-width: 685px){
+    #acerca h2{
+        font-size: 35px;
+    }
+
+    #acerca p{
+        font-size: 23px;
+    }
+
+    .ver{
+        font-size: 30px !important;
+        height: 80px !important;
+        width: 190px !important;
+        line-height: 80px !important;
+    }
+
+    .text-plan{
+        font-size: 36px !important;
+    }
+
+}
+
+/*Tipos de planetas*/
+
+#mercurio{
+    background-image: url(img/mercury-5826457_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.ver{
+    font-size: 40px;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(1,1,1,.3);
+    border-radius: 10px;
+    top: 400px;
+    height: 100px;
+    width: 200px;
+    line-height: 95px;
+    box-shadow: 1px 1px 30px #fff;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    transition: all .5s;
+    font-weight: bold;
+}
+
+.ver:hover{
+    background-color: rgba(119, 137, 241, 0.3);
+    color: rgb(12, 87, 173);
+    font-weight: bold;
+}
+
+.text-plan{
+    text-align: center;
+    color: #fff;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+
+
+
+#venus{
+    background-image: url(img/venus-1351056_1280.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+#tierra{
+    background-image: url(img/earth-1617121_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+#marte{
+    background-image: url(img/mars-1326108_1280.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+#jupiter{
+    background-image: url(img/jupiter-5808571_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+#saturno{
+    background-image: url(img/saturn-54999.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+
+#urano{
+    background-image: url(img/uranus-5842934_1280.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+
+#neptuno{
+    background-image: url(img/neptune-5798425_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+
+.flecha-top{
+    font-size: 40px;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(1,1,1,.3);
+    border-radius: 10px;
+    top: 600px;
+    left: 400px;
+    height: 90px;
+    width: 100px;
+    line-height: 95px;
+    box-shadow: 1px 1px 30px #fff;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    transition: all .5s;
+    font-weight: bold;
+}
+
+.flecha-top:hover{
+    background-color: rgba(119, 137, 241, 0.3);
+    color: rgb(12, 87, 173);
+    font-weight: bold;
+}

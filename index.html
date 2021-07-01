@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- ICONOS Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- hoja de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Libreria GSAP -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" > </script> 
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/d6adba2ff0.js" crossorigin="anonymous"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- Animaciones al scrollear -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Planets</title>
+  </head>
+<body>
+  <div id="particles-js"></div>    
+    <section class="container-fluid" id="inicio">    
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/att_2016_globe_detail-removebg-preview.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acerca">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Planets
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#mercurio">Mercurio</a></li>
+                  <li><a class="dropdown-item" href="#venus">Venus</a></li>
+                  <li><a class="dropdown-item" href="#tierra">La Tierra</a></li>
+                  <li><a class="dropdown-item" href="#marte">Marte</a></li>
+                  <li><a class="dropdown-item" href="#jupiter">Jupiter</a></li>
+                  <li><a class="dropdown-item" href="#saturno">Saturno</a></li>
+                  <li><a class="dropdown-item" href="#urano">Urano</a></li>
+                  <li><a class="dropdown-item" href="#neptuno">Neptuno</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h2 class="d-flex justify-content-center" id="titulo">Información sobre los planetas descubiertos en el Universo</h2>
+      <a class="flecha" href="#acerca"><i class="fas fa-arrow-down"></i></a>  
+    </section>
+
+    <section id="acerca">
+      <div class="container">
+        <h2>¿Qué es un planeta?</h2>
+        <p>Un planeta es un objeto astronómico que orbita una estrella y que es lo suficientemente masivo como para ser redondeado por su propia gravedad, pero no lo suficientemente masivo como para causar fusión termonuclear, y que ha despejado su región vecina de planetesimales.</p>
+      </div>
+    </section>
+    <!-- Mercurio -->
+    <section class="container-fluid" id="mercurio">
+        <h2 class="text-plan">MERCURIO</h2>
+        <a href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" target="_blank" class="ver">Ver más</a>
+    </section>
+    <!-- Venus -->  
+    <section id="venus">
+      <h2 class="text-plan">VENUS</h2>
+      <a href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="_blank" class="ver">Ver más</a>
+    </section>
+    <!-- Tierra -->  
+    <section id="tierra">
+      <h2 class="text-plan">TIERRA</h2>
+      <a href="https://es.wikipedia.org/wiki/Tierra" target="_blank" class="ver">Ver más</a>
+    </section>
+
+    <!-- Marte -->  
+    <section id="marte">
+      <h2 class="text-plan">MARTE</h2>
+      <a href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="_blank" class="ver">Ver más</a>
+    </section>
+
+    <!-- Jupiter -->  
+    <section id="jupiter">
+      <h2 class="text-plan">JUPITER</h2>
+      <a href="https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)" target="_blank" class="ver">Ver más</a>
+    </section>
+
+    <!-- Saturno -->  
+    <section id="saturno">
+      <h2 class="text-plan">SATURNO</h2>
+      <a href="https://es.wikipedia.org/wiki/Saturno_(planeta)" target="_blank" class="ver">Ver más</a>
+    </section>
+     <!-- Urano -->  
+    <section id="urano">
+      <h2 class="text-plan">URANO</h2>
+      <a href="https://es.wikipedia.org/wiki/Urano_(planeta)" target="_blank" class="ver">Ver más</a>
+    </section>
+
+    <!-- Neptuno -->  
+    <section id="neptuno">
+      <h2 class="text-plan">NEPTUNO</h2>
+      <a href="https://es.wikipedia.org/wiki/Neptuno_(planeta)" target="_blank" class="ver">Ver más</a>
+      <a href="#inicio" class="flecha-top"><i class="fas fa-arrow-up"></i></a>
+    </section>
+
+<!-- lottiefiles - Son animaciones -->  
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- typewritejs -->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<!-- Boostrap -->    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!-- Particles.js --> 
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<!-- Archivo javascript --> 
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
